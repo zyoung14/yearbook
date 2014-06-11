@@ -1,0 +1,38 @@
+.container {
+	width: 765px;
+	margin: 0 auto;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+.pic {
+	display: inline-block;
+	text-align: center;
+	border-width: 1px;
+	border-color: red;
+	border-style: solid;
+	width: 252px;
+	height: 300px;
+	overflow: hidden;
+	margin-right: -3px;
+	position: relative;
+}
+
+.picture {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+.pic :hover {
+	opacity: 0.4;
+	transition: opacity 1s;
+	-webkit-transform: rotate(20deg) ;
+	
+}
+
